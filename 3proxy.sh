@@ -64,4 +64,4 @@ gen_ifconfig() {
     cat <<EOF
 $(awk -F "/" '{print "ifconfig eth0 inet6 add " $5 "/64"}' ${WORKDATA})
 EOF
-}
+}FGJHFG
